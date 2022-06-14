@@ -1,0 +1,28 @@
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+//first install homebrew
+
+//install any application
+brew install <packagename>
+
+//install mysql
+brew install mysql
+
+//Packages installed using Homebrew are all installed in a specific folder.
+//Typically it’s /usr/local/Cellar.
+
+//Updating a package
+//A single package can be upgraded using
+brew upgrade <packagename>
+
+//Updating Homebrew
+brew update
+
+//you can now start the MySQL server by running:
+brew services start mysql
+
+//with secure pwd
+mysql_secure_installation
+
+ mysql -uroot -ppassword
+ //running mysql on terminal after installation
+ 
